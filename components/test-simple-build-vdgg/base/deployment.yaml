@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: test-simple-build-vdgg
     spec:
       containers:
-      - image: hello-world:latest
+      - image: quay.io/tnevrlka-test/build-e2e-mmdj-tenant/build-suite-test-application-mwhn/test-simple-build-vdgg@sha256:31885177fe6a00b9543c2318c75bd89a930361a206fc9948c3b1f01d6fea6511
         name: my-nginx
         ports:
         - containerPort: 8080
